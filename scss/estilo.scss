@@ -49,26 +49,6 @@ nav{
         }
 }
 
-
-.seccionA{
-    grid-area: seccionA;
-    background-color: #F1C40F;
-  }
-  
-  .seccionB{
-    grid-area: seccionB;
-    background-color: azure;
-    }
-    .seccionC{
-      grid-area: seccionC;
-      background-color: azure;
-    }
-    
-    .seccionD{
-      grid-area: seccionD;
-      background-color:azure;
-      }
-
 .gridPadre {
     display: grid;
     grid-template-areas:

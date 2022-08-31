@@ -100,4 +100,7 @@ body {
 
 .gridPadre {
   display: grid;
-  grid-template-areas: "header header header header" "nav nav nav nav" "seccionA seccionB seccionC seccionD" "footer footer footer footer"; }
+  grid-template-areas: "header header header header"
+ "nav nav nav nav"
+ "seccionA seccionB seccionC seccionD"
+ "footer footer footer footer"; }

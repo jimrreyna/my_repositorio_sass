@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+  } 
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap');
+
+  @import "variables";
+  @import "section";
+  @import "footer";
+body {
+    font-size: 2rem;
+    font-family: 'Edu TAS Beginner', cursive;
+.encabezado{
+    background-color: $color-fondo;
+    background-position: left;
+    height: 25vh;
+    width: 100%;
+    position:relative;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    grid-area: header;
+}
+nav{
+    background-color:  #720FF1 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:sticky;
+    top: 0;
+    grid-area: nav;
+
+    ul li{
+        list-style: none;
+        display: inline-block;
+        margin: 2rem;
+
+        a{
+            text-decoration: none;
+            font-weight: bold;
+            color:black;
+            }
+            }
+
+        }
+}
+
+
+.seccionA{
+    grid-area: seccionA;
+    background-color: #F1C40F;
+  }
+  
+  .seccionB{
+    grid-area: seccionB;
+    background-color: azure;
+    }
+    .seccionC{
+      grid-area: seccionC;
+      background-color: azure;
+    }
+    
+    .seccionD{
+      grid-area: seccionD;
+      background-color:azure;
+      }
+
+.gridPadre {
+    display: grid;
+    grid-template-areas:
+  "header header header header"
+  "nav nav nav nav"
+  "seccionA seccionB seccionC seccionD"
+  "footer footer footer footer"
+  ;
+}
+
